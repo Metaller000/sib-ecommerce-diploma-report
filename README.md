@@ -143,7 +143,7 @@ in src/main/kotlin/ru/netology/necommerce/service/UserService.kt
 2. Проект necommerce-backend.
 
     по результатам SAST при помощи SonarQube было выявлено 17 severyty уязвимотей, 
-    подробности в отчете. 
+    подробности по способам исправления в отчете. 
 
     Обнаружен секрет в файле fcm.json, необходимо удалить из проекта, сгенерировать 
     новые секреты и спрятать вне проекта, например в HashiCorp vault или сереты guthub.
